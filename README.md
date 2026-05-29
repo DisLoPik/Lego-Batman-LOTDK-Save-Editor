@@ -1,4 +1,5 @@
 
+
 #  🦇 Batcomputer Terminal: Save Editor
 
 ###  A Save Editor for *LEGO Batman: Legacy of the Dark Knight*
@@ -20,6 +21,10 @@ A GUI-based save file editor that lets you modify WayneTech Chips, Bat Tokens, a
   
 
 ##  Screenshots
+|![enter image description here](https://raw.githubusercontent.com/DisLoPik/Lego-Batman-LOTDK-Save-Editor/refs/heads/main/screenshots/screenshot1.png)  |
+|--|
+|  |
+
 
   
 
