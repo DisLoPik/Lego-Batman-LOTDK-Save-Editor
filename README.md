@@ -152,7 +152,7 @@ Your save file is typically located at:
 
 ```
 
-"C:\Users\YOUR_USER_NAME\AppData\Local\Warner Bros. Interactive Entertainment\LEGO Batman - Legacy of the Dark Knight\SaveGames\steam\YOUR STEAM ID\SaveSlot_0_TT.sav"
+"C:\Users\YOUR_USER_NAME\AppData\Local\Warner Bros. Interactive Entertainment\LEGO Batman Legacy of the Dark Knight\SaveGames\steam\YOUR STEAM ID\SaveSlot_0_TT.sav"
 
 ```
 
