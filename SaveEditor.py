@@ -4,9 +4,7 @@ from CTkMessagebox import CTkMessagebox
 import struct
 import os
 
-# ==========================================
 # PART 1: THE CRYPTOGRAPHY ENGINE
-# ==========================================
 def rc4_crypt(data: bytes) -> bytes:
     key = b"!8\x11`\x17G/S]7$\x0e\x0e\x0f`C/\x0e?\n'UK\x0bOY%8\x0b:D\x17"
     S = list(range(256))
@@ -26,9 +24,7 @@ def rc4_crypt(data: bytes) -> bytes:
         
     return bytes(out)
 
-# ==========================================
 # PART 2: THE MEMORY INJECTORS
-# ==========================================
 def patch_int64_strict(
     data: bytearray, prop_name: bytes, new_val: int, min_offset: int = 8000
 ) -> bool:
@@ -239,9 +235,7 @@ def patch_collectable_wallet(
         return False, "Could not remove enough collected entries."
     return True, f"Unmarked {changed:,} pickups ({actual:,} -> {target:,})."
 
-# ==========================================
 # PART 3: THE MODERN UI APPLICATION
-# ==========================================
 class SaveEditorApp:
     def __init__(self, root):
         self.root = root
